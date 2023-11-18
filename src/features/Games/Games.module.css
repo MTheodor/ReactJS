@@ -1,0 +1,64 @@
+body {
+  font-family: cursive;
+}
+
+a > img {
+  width: 400px;
+  height: 224px;
+}
+
+.searchBar {
+  display: flex;
+  padding: 0.5rem;
+  margin-bottom: 5px;
+  border: solid orange 1px;
+  border-radius: 15px;
+}
+
+.searchBar input {
+  flex-grow: 1;
+  background: transparent;
+  border: 0;
+  font-size: 18px;
+  caret-color: white;
+  color: white;
+}
+
+.searchBar button {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.game-list {
+  display: grid;
+  position: relative;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
+  height: 224px;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  grid-column: 1 / span 4;
+  position: relative;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.pagination > div {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+  .game-list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    justify-content: center;
+  }
+
+  .pagination {
+    grid-column: 1 / span 2;
+  }
+}

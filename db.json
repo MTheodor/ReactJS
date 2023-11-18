@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$MSwB6QIUSLFKJYc9yIgIsu1TXQWu/xtRDcX/wo4iCZfIpV0gutybi",
+      "firstName": "Paul",
+      "lastName": "Neogescu",
+      "isAdmin": true,
+      "id": 1
+    }
+  ],
+  "games": []
+}

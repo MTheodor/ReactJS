@@ -1,0 +1,30 @@
+.main-menu {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-family: cursive;
+  padding: 10px;
+  background-color: orange;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.main-menu .active {
+  color: yellow;
+}
+
+.main-menu ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  width: 100%;
+}
+
+.push-right {
+  margin-left: auto;
+  font-size: 18px;
+}
+
+.adjust {
+  margin-right: 10px;
+}

@@ -1,0 +1,47 @@
+p {
+  margin-bottom: 15px;
+}
+
+textarea {
+  width: 50%;
+  height: 200px;
+}
+
+.long {
+  width: 50%;
+}
+
+.message {
+  margin-top: 0.25rem;
+  color: rgb(22 101 52);
+  background-color: rgb(134 239 172);
+  margin: auto;
+  padding: 0.75rem;
+}
+
+.blocked {
+  display: block;
+}
+
+.header {
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.btn {
+  color: black;
+  background-color: orange;
+  padding: 5px;
+  border: solid orange 1px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+  textarea {
+    width: 100%;
+  }
+
+  .long {
+    width: 100%;
+  }
+}

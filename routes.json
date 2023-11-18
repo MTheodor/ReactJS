@@ -1,0 +1,6 @@
+{
+  "/api/*": "/$1",
+  "/users*": "/600/users$1",
+  "/games*": "/games$1",
+  "/games?_page=:page": "/games?_page=:page&_limit=20"
+}
